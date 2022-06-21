@@ -32,11 +32,7 @@ export const EthPrice = ({ price }) => {
       <Image
         source={assets.eth}
         resizeMode="contain"
-        style={{
-          width: 20,
-          height: 20,
-          marginRight: 2,
-        }}
+        style={{ width: 20, height: 20, marginRight: 2 }}
       />
       <Text
         style={{
